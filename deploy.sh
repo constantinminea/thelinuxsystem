@@ -1,10 +1,12 @@
 #!/usr/bin/env sh
 
 # abort on errors
-set -e
+# set -e
 
 # build
 npm run docs:build
+
+cp -R /docs/.vitepress/dist .
 
 # navigate into the build output directory
 # cd docs/.vitepress/dist
