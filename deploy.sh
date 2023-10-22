@@ -7,7 +7,8 @@
 npm run docs:build
 
 # cd /c/Users/const/OneDrive/Documents/code/thelinuxsystem
-cp -R docs/.vitepress/dist/ gh-pages/
+# cp -R docs/.vitepress/dist/ gh-pages/
+cp -R docs/.vitepress/dist/ .
 
 # navigate into the build output directory
 # cd docs/.vitepress/dist
