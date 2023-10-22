@@ -6,6 +6,7 @@
 # build
 npm run docs:build
 
+cd /c/Users/const/OneDrive/Documents/code/thelinuxsystem
 rsync -a docs/.vitepress/dist gh-pages/
 
 # navigate into the build output directory
