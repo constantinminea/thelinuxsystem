@@ -6,7 +6,7 @@
 # build
 npm run docs:build
 
-rsync -a docs/.vitepress/dist dist/
+rsync -a docs/.vitepress/dist gh-pages/
 
 # navigate into the build output directory
 # cd docs/.vitepress/dist
