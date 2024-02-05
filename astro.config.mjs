@@ -7,7 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'The Linux System',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: '',
 			},
 			sidebar: [
 				{
